@@ -1,5 +1,3 @@
-import { app, router } from './app'
+import { app } from './app'
 
-router.onReady(() => {
-  app.$mount('#app')
-})
+app.$mount('#app')
